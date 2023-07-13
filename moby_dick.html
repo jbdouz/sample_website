@@ -18,7 +18,7 @@
     </div>
 
     <!-- much here to be styled, will do so in last section -->
-    <header>
+    <header style="text-align: center; margin-bottom: 80px;">
       <h1>A Softcover book report</h1>
       <h2>Moby-Dick (or, The Whale)</h2>
     </header>
@@ -36,20 +36,21 @@
         American literature.
       </p>
 
-      <img src="images/sperm_whales.jpg" alt="an image of sperm whales">
+      <!-- to center the image, we can use marging: 0 auto; which automatically assigns value to left and right margin. The diplay: block; is important here because margin: 0 auto; only works on block element but img is an inline element-->
+      <img src="images/sperm_whales.jpg" alt="an image of sperm whales" style="margin: 0 auto; display: block;">
     </div>
 
-    <div>
+    <div style="width: 500px; margin: 20px auto; padding: 30px; background-color: #fafafa;">
       <h3>Moby-Dick: A classic tale of the sea</h3>
       <a href="https://www.softcover.io/read/6070fb03/moby-dick" target="_blank" rel="noopener">
-        <img src="images/moby_dick.png" alt="Moby-Dick">
+        <img src="images/moby_dick.png" alt="Moby-Dick" style="height: 200px; float: left; margin: 0 40px 0 0;">
       </a>
       <p>
         <a href="https://www.softcover.io/read/6070fb03/moby-dick""><em>Moby-Dick</em></a>
         by Herman Melville begins with these immortal words:
       </p>
-      <blockquote cite="Herman Melville">
-        <span>Call me Ishmael</span> Some years ago–never mind how long
+      <blockquote cite="Herman Melville" style="font-style: italic; font-size: 20px;">
+        <span style="font-style: normal; font-size: 24px; font-weight: bold; color: goldenrod;">Call me Ishmael.</span> Some years ago–never mind how long
         precisely–having little or no money in my purse, and nothing
         particular to interest me on shore, I thought I would sail about a
         little and see the watery part of the world. It is a way I have of
@@ -64,7 +65,7 @@
       </p>
     </div>
 
-    <div>
+    <div style="width: 500px; margin: 20px auto; padding: 30px; background-color: #fafafa;">
       <h4>Our top3 favorite things about Moby Dick</h4>
       <ol>
         <li>Venegeful Whale</li>
